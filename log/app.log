@@ -1,0 +1,53 @@
+{"level":"info","time":"2025-01-26T16:49:57+07:00","message":"Zerolog initiated successfully"}
+{"level":"info","time":"2025-01-26T16:49:57+07:00","message":"Database connected"}
+{"level":"info","time":"2025-01-26T16:50:12+07:00","message":"Creating transaction"}
+{"level":"info","transaction":{"ID":"235b72e1-00b9-4408-805a-f079c8c04007","DateTransaction":"2025-01-26 16:50:12","Type":"transfer","Nominal":11000,"AccountID":"1125be13-a661-415e-a1f9-0850d56d571f","Note":"Elmira to tarim kedua","DestinationAccountID":"22222222-911e-4b31-a455-d4b5a5d1502c"},"time":"2025-01-26T16:50:12+07:00","message":"Transaction created successfully"}
+{"level":"info","status":"success","code":201,"message":"Transaction created successfully","time":"2025-01-26T16:50:12+07:00","message":"Response Success sent successfully"}
+{"level":"info","time":"2025-01-29T13:54:29+07:00","message":"Zerolog initiated successfully"}
+{"level":"info","time":"2025-01-29T13:54:29+07:00","message":"Database connected"}
+{"level":"info","time":"2025-01-29T13:56:39+07:00","message":"Creating transaction"}
+{"level":"info","transaction":{"trx_id":"1ede591d-c3b1-4daf-a5f5-7d8b51bfa047","trx_date":"2025-01-29 13:56:39","trx_type":"transfer","trx_amount":11000,"trx_account_id":"22222222-911e-4b31-a455-d4b5a5d1502c","trx_note":" tarim to elmira","trx_destination_id":"1125be13-a661-415e-a1f9-0850d56d571f"},"time":"2025-01-29T13:56:39+07:00","message":"Transaction created successfully"}
+{"level":"info","status":"success","code":201,"message":"Transaction created successfully","time":"2025-01-29T13:56:39+07:00","message":"Response Success sent successfully"}
+{"level":"info","time":"2025-01-29T13:57:20+07:00","message":"Creating transaction"}
+{"level":"info","status":"error","code":400,"message":"insufficient balance","time":"2025-01-29T13:57:20+07:00","message":"Response Error sent successfully"}
+{"level":"info","time":"2025-01-29T13:59:03+07:00","message":"Zerolog initiated successfully"}
+{"level":"info","time":"2025-01-29T13:59:03+07:00","message":"Database connected"}
+{"level":"info","time":"2025-01-29T13:59:07+07:00","message":"Creating transaction"}
+{"level":"info","transaction":{"trx_id":"eb62785d-1e16-4d01-959a-2d26cf962034","trx_date":"2025-01-29 13:59:07","trx_type":"transfer","trx_amount":11000,"trx_account_id":"22222222-911e-4b31-a455-d4b5a5d1502c","trx_note":" tarim to elmira","trx_destination_id":"1125be13-a661-415e-a1f9-0850d56d571f"},"time":"2025-01-29T13:59:07+07:00","message":"Transaction created successfully"}
+{"level":"info","status":"success","code":201,"message":"Transaction created successfully","time":"2025-01-29T13:59:07+07:00","message":"Response Success sent successfully"}
+{"level":"info","time":"2025-01-29T14:00:53+07:00","message":"Zerolog initiated successfully"}
+{"level":"info","time":"2025-01-29T14:00:53+07:00","message":"Database connected"}
+{"level":"info","time":"2025-01-29T14:01:09+07:00","message":"Creating transaction"}
+{"level":"info","status":"error","code":500,"message":"Database error: failed to update account balance: Error 1146 (42S02): Table 'banking.account' doesn't exist","time":"2025-01-29T14:01:09+07:00","message":"Response Error sent successfully"}
+{"level":"info","time":"2025-01-29T14:02:03+07:00","message":"Creating transaction"}
+{"level":"info","status":"error","code":500,"message":"Database error: failed to update account balance: Error 1146 (42S02): Table 'banking.account' doesn't exist","time":"2025-01-29T14:02:03+07:00","message":"Response Error sent successfully"}
+{"level":"info","time":"2025-01-29T14:06:46+07:00","message":"Zerolog initiated successfully"}
+{"level":"info","time":"2025-01-29T14:06:46+07:00","message":"Database connected"}
+{"level":"info","time":"2025-01-29T14:07:37+07:00","message":"Zerolog initiated successfully"}
+{"level":"info","time":"2025-01-29T14:07:37+07:00","message":"Database connected"}
+{"level":"info","time":"2025-01-29T14:08:21+07:00","message":"Zerolog initiated successfully"}
+{"level":"info","time":"2025-01-29T14:08:21+07:00","message":"Database connected"}
+{"level":"info","time":"2025-01-29T14:08:40+07:00","message":"Zerolog initiated successfully"}
+{"level":"info","time":"2025-01-29T14:08:40+07:00","message":"Database connected"}
+{"level":"info","time":"2025-01-29T14:10:11+07:00","message":"Zerolog initiated successfully"}
+{"level":"info","time":"2025-01-29T14:10:11+07:00","message":"Database connected"}
+{"level":"info","time":"2025-01-29T14:10:37+07:00","message":"Creating transaction"}
+{"level":"info","status":"error","code":500,"message":"Database error: failed to update account balance: Error 1205 (HY000): Lock wait timeout exceeded; try restarting transaction","time":"2025-01-29T14:11:27+07:00","message":"Response Error sent successfully"}
+{"level":"info","time":"2025-01-29T14:17:19+07:00","message":"Zerolog initiated successfully"}
+{"level":"info","time":"2025-01-29T14:17:19+07:00","message":"Database connected"}
+{"level":"info","time":"2025-01-29T14:17:45+07:00","message":"Creating transaction"}
+{"level":"info","status":"error","code":500,"message":"Database error: failed to update account balance: Error 1205 (HY000): Lock wait timeout exceeded; try restarting transaction","time":"2025-01-29T14:18:35+07:00","message":"Response Error sent successfully"}
+{"level":"info","time":"2025-01-29T14:19:26+07:00","message":"Zerolog initiated successfully"}
+{"level":"info","time":"2025-01-29T14:19:26+07:00","message":"Database connected"}
+{"level":"info","time":"2025-01-29T14:19:48+07:00","message":"Creating transaction"}
+{"level":"info","status":"error","code":500,"message":"Database error: failed to update account balance: Error 1205 (HY000): Lock wait timeout exceeded; try restarting transaction","time":"2025-01-29T14:20:38+07:00","message":"Response Error sent successfully"}
+{"level":"info","time":"2025-01-29T14:25:36+07:00","message":"Zerolog initiated successfully"}
+{"level":"info","time":"2025-01-29T14:25:36+07:00","message":"Database connected"}
+{"level":"info","time":"2025-01-29T14:25:42+07:00","message":"Creating transaction"}
+{"level":"info","status":"error","code":500,"message":"Database error: failed to update account balance: Error 1205 (HY000): Lock wait timeout exceeded; try restarting transaction","time":"2025-01-29T14:26:32+07:00","message":"Response Error sent successfully"}
+{"level":"info","time":"2025-01-30T10:47:15+07:00","message":"Zerolog initiated successfully"}
+{"level":"info","time":"2025-01-30T10:47:15+07:00","message":"Database connected"}
+{"level":"info","method":"POST","path":"/login","time":"2025-01-30T10:47:26+07:00","message":"Login"}
+{"level":"info","username":"okyws","time":"2025-01-30T10:47:26+07:00","message":"Token generated successfully"}
+{"level":"info","status":"success","code":200,"message":"Login successful","time":"2025-01-30T10:47:26+07:00","message":"Response Success sent successfully"}
+{"level":"info","username":"okyws","time":"2025-01-30T10:47:26+07:00","message":"Login successful"}

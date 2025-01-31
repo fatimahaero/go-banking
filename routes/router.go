@@ -50,11 +50,6 @@ func NewRouter(router *mux.Router, db *sqlx.DB) {
 	router.Handle("/transactions", middleware.AuthMiddleware(http.HandlerFunc(transactionHandler.GetAllTransaction))).Methods("GET")
 	router.Handle("/transactions/account/{id}", middleware.AuthMiddleware(http.HandlerFunc(transactionHandler.GetTransactionByAccountID))).Methods("GET")
 
-	authService := serv.NewAuthService(accountRepo)
-	authHandler := hand.NewAuthHandlerDB(authService, accountService)
-
-	router.Handle("/login", http.HandlerFunc(authHandler.Login)).Methods("POST")
-	router.Handle("/register", http.HandlerFunc(authHandler.Register)).Methods("POST")
 	/*
 	 * Datanya diambil dari mock data
 	 */

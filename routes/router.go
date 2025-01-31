@@ -6,8 +6,10 @@ import (
 	repo "go-banking/adapter/repository"
 	conf "go-banking/config"
 	"go-banking/domain"
-	"go-banking/middleware"
 	serv "go-banking/service"
+
+	"github.com/fatimahaero/go-banking-auth/middleware"
+	"github.com/fatimahaero/go-banking-lib/logger"
 
 	"net/http"
 
@@ -70,8 +72,8 @@ func NewRouter(router *mux.Router, db *sqlx.DB) {
 func StartServer() {
 
 	// Start of log setup
-	conf.InitiateLog()
-	defer conf.CloseLog() // Close log when application is stopped
+	logger.InitiateLog()
+	defer logger.CloseLog() // Close log when application is stopped
 	// End of log setup
 
 	config, _ := domain.GetConfig()
